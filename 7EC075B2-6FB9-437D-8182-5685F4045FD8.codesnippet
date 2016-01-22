@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)init
 {
-    self = [super initWithNibName:[[self class] description] bundle:nil];
+    self = [super initWithNibName:[[self class] description] bundle:[NSBundle bundleForClass:[self class]]];
     if (self) {
         ;
     }
